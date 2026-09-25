@@ -26,11 +26,13 @@
 
 ## 文件与使用
 
-压缩包：第一版_三问程序实验脚本与图表_20260926.zip（215.97 MiB，226,459,844 bytes）。
+压缩包：multicore-scheduling-v1-experiments-20260926.zip（215.97 MiB，226,459,844 bytes）。
 
 解压后先阅读根目录 README_使用说明.md，保持 output 下四个目录的相对位置。原环境为 Python 3.12.3；求解仅依赖标准库，绘图另需 Matplotlib，测试另需 pytest/pytest-cov。
 
 本包包含程序、脚本、图表和支持数据；未收入大体积评价缓存、完整逐候选轨迹及全部原始运行目录。历史报告和元数据保留原工作区路径与执行哈希，具体复算条件见包内说明。
+
+GitHub下载附件使用英文文件名，ZIP内容和原中文文件完全一致。
 
 ## 完整性校验
 
@@ -40,6 +42,6 @@
 
 Windows PowerShell：
 
-    Get-FileHash -Algorithm SHA256 -LiteralPath '第一版_三问程序实验脚本与图表_20260926.zip'
+    Get-FileHash -Algorithm SHA256 -LiteralPath 'multicore-scheduling-v1-experiments-20260926.zip'
 
 Release同时提供.sha256及.verification.json文件。打包后已逐文件校验解压读取的CRC、字节数、SHA-256，并通过全部归档Python文件的语法检查。
